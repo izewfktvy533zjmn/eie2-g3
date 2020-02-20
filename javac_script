@@ -1,0 +1,6 @@
+#!/bin/tcsh -f
+
+mkdir classes
+pushd src
+javac -d ../classes ./lisp/*.java
+popd
