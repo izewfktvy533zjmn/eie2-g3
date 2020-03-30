@@ -10,33 +10,30 @@
 
 
 ## Setup
-
->*$ git clone https://github.com/izewfktvy533zjmn/eie2-g3.git*
-
->*$ cd eie-g3*
-
->*$ chmod +x javac_script*
-
->*$ ./javac_script*
-
->*$ chmod +x ./bin/lisp*
+```
+$ git clone https://github.com/izewfktvy533zjmn/eie2-g3.git
+$ cd eie-g3
+$ chmod +x javac_script
+$ ./javac_script
+$ chmod +x ./bin/lisp
+```
 
 Interpreter Processing
-
->*$ ./bin/lisp*
+```
+$ ./bin/lisp
+```
 
 Batch Processing
-
->*$ ./bin/lisp ./apps/app1.scm*
+```
+$ ./bin/lisp ./apps/app1.scm
+```
 
 Turtle Graphics Application
-
->*$ ./bin/lisp ./apps/app2.scm*
-
->*$ ./bin/lisp ./apps/dragoncurve.scm*
-
->*$ ./bin/lisp ./apps/kochcruve.scm*
-
+```
+$ ./bin/lisp ./apps/app2.scm
+$ ./bin/lisp ./apps/dragoncurve.scm
+$ ./bin/lisp ./apps/kochcruve.scm
+```
 
 ## Subroutine
 - cons
