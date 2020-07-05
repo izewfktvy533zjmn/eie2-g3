@@ -18,22 +18,27 @@ $ ./javac_script
 $ chmod +x ./bin/lisp
 ```
 
-Interpreter Processing
-```
+### Interpreter Processing
+```bash
 $ ./bin/lisp
 ```
 
-Batch Processing
-```
+### Batch Processing
+```bash
 $ ./bin/lisp ./apps/app1.scm
 ```
 
-Turtle Graphics Application
-```
+### Turtle Graphics Application
+```bash
 $ ./bin/lisp ./apps/app2.scm
-$ ./bin/lisp ./apps/dragoncurve.scm
-$ ./bin/lisp ./apps/kochcruve.scm
 ```
+![c-curve](gif/c_curve_144x.gif)
+
+```bash
+$ ./bin/lisp ./apps/dragoncurve.scm
+```
+![dragon curve](gif/dragon_curve_144x.gif)
+
 
 ## Subroutine
 - cons
@@ -63,6 +68,3 @@ $ ./bin/lisp ./apps/kochcruve.scm
 - set!
 - lambda
 - let
-
-
-
